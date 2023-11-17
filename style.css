@@ -1,0 +1,31 @@
+body {
+    background-image: url("607ab035c89ebb9fdf1dbbf874f68b10.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.userInput {
+    border-radius: 8px;
+    background: #F0F0F0;
+    width: 389px;
+    height: 46px;
+    flex-shrink: 0;
+    border: 0;
+}
+
+
+.userInput::placeholder {
+    color: #C1C1C1;
+    font-family: Khand;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 12px;
+
+}
